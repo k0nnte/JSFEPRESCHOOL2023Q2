@@ -1,0 +1,303 @@
+@media (max-width: 768px) {
+  .contener {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .header {
+    padding: 20px;
+    position: relative;
+  }
+
+  .header_nazva {
+    color: #fff;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    margin: 0;
+  }
+
+  .nav_contener {
+  }
+
+  .header_navigation {
+    display: none;
+  }
+
+  .but_log {
+    margin: 0;
+  }
+
+  .profile {
+    right: 80px;
+    top: 55px;
+  }
+
+  .burger {
+    display: flex;
+    width: 45px;
+    height: 20px;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+  }
+
+  .burger_line {
+    width: 45px;
+    height: 2px;
+
+    transition: all 0.5s ease;
+    background-color: white;
+  }
+
+  .burgr_menu {
+    display: block;
+    width: 332px;
+    height: 480px;
+    background-color: #0c0c0e;
+    position: absolute;
+    transform: translate(400px);
+    top: 90px;
+    right: 0;
+    transition: transform 0.5s ease;
+  }
+
+  .burg_inviz {
+    display: none;
+  }
+
+  .rotate1 {
+    transform: rotate(45deg);
+  }
+  .rotate2 {
+    transform: rotate(-45deg);
+  }
+
+  .burger_open {
+    justify-content: center;
+  }
+
+  .burgr_menu_open {
+    transform: translate(0);
+  }
+
+  .burger_wraper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding-right: 20px;
+  }
+
+  .burger_icon_open {
+    width: 32px;
+    height: 31px;
+    position: relative;
+    margin-left: 40px;
+  }
+
+  .open_burg {
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+  }
+
+  .burg1 {
+    transform: rotate(45deg);
+  }
+  .burg2 {
+    transform: rotate(-45deg);
+  }
+
+  .burger_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .spis_link {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+  }
+
+  /* about */
+
+  .zag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 20px auto 0;
+  }
+
+  .slider_contener {
+    display: none;
+  }
+
+  .table_slider {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    margin-top: 20px;
+  }
+
+  .slider_but {
+    background-color: #fff;
+    border: none;
+  }
+
+  .table_btn {
+    display: block;
+  }
+
+  .radio {
+    margin: 25px auto 0;
+  }
+
+  .slider_wraper {
+    max-width: 450px;
+    overflow-x: hidden;
+  }
+
+  .slide_img {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .tablet_carisel {
+    display: flex;
+    transition: transform 1s ease;
+  }
+
+  /* favorites */
+
+  .favorites {
+    margin-top: 60px;
+  }
+
+  .wraper_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wraper_spisBok {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .disappears {
+    opacity: 0;
+  }
+
+  .disappearance {
+    display: none;
+  }
+
+  /* shop */
+
+  .shop_about {
+    display: none;
+  }
+
+  .shop_aboutT {
+    display: block;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .shop_wraper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* contacts */
+
+  .contact {
+    margin-top: 60px;
+  }
+
+  .contact_wrap_img {
+    max-width: 696px;
+    width: 100%;
+    height: 414px;
+    margin-top: 100px;
+  }
+
+  .contact_wrap_img > img {
+    width: 100%;
+  }
+
+  /* library_cards */
+
+  .library_cards {
+    margin-top: 60px;
+  }
+
+  .cards_contener {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .oneB {
+    order: 1;
+  }
+
+  .twoB {
+    order: 3;
+  }
+
+  .threeB {
+    order: 2;
+  }
+
+  .fourB {
+    order: 4;
+  }
+
+  .get_contener {
+    align-items: center;
+    margin-top: 21px;
+  }
+
+  .get_text2 {
+    display: none;
+  }
+
+  .get_text2_2 {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+    margin-top: 35px;
+  }
+}

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.wraper {
+  width: 100vw;
+
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header {
+  margin-top: 2rem;
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upsmash_wraper {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.camera {
+  width: 5rem;
+  height: 5rem;
+}
+
+.text {
+  color: white;
+  font-size: 4rem;
+}
+.contener_inp {
+  width: 30rem;
+
+  position: relative;
+}
+
+.impyt {
+  width: 100%;
+  display: block;
+  border-radius: 3rem;
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  box-sizing: border-box;
+  text-overflow: "..";
+  padding-right: 6rem;
+}
+
+.impyt:focus {
+  outline: 0.3rem solid orange;
+}
+
+.search {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  border: none;
+  right: 2rem;
+  top: 0.3rem;
+  background-image: url(../img/поиск.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  right: 5rem;
+  top: 0.6rem;
+  border: none;
+  background-image: url(../img/x.svg);
+  cursor: pointer;
+  display: none;
+  z-index: 4;
+}
+
+.line {
+  width: 100%;
+  height: 0.7rem;
+  background-color: orange;
+}
+
+.main_wraper {
+  width: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.heigth {
+  height: 100vh;
+}
+
+.imagess {
+  object-fit: cover;
+  width: 30%;
+  height: 35rem;
+}
+
+.footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_wraper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.year {
+  font-size: 3rem;
+  align-self: center;
+}
+
+.link_fot {
+  display: block;
+  width: 10%;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.img_fot {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

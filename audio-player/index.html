@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>audio-player</title>
+  </head>
+  <body>
+    <img src="./assets/img/lemonade.png" alt="song" class="back__img" />
+    <div class="contener">
+      <div class="audio__player">
+        <audio id="audios" src="./assets/audio/beyonce.mp3"></audio>
+        <div class="first__wrap">
+          <img src="./assets/img/lemonade.png" alt="song" class="img__song" />
+        </div>
+        <div class="second__wpar">
+          <div class="player">
+            <button class="play"></button>
+            <div class="wraper__text">
+              <p class="singer"></p>
+              <p class="song"></p>
+            </div>
+            <div class="but__control">
+              <button class="but__next" id="prev"></button>
+              <button class="but__next" id="nexti"></button>
+            </div>
+          </div>
+          <div class="time__control">
+            <p class="timedur">3:53</p>
+            <input
+              type="range"
+              class="range__time"
+              min="0"
+              max="100"
+              step="1"
+              value="0"
+            />
+
+            <p class="timenow">0:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="data">2023</p>
+      <a href="https://rs.school/js-stage0/" class="logo__link">
+        <img
+          src="./assets/img/rs_school_js.svg"
+          alt="rsschool"
+          class="logo__img"
+        />
+      </a>
+      <a href="https://github.com/k0nnte" class="logo__link">
+        <img src="./assets/img/icongh.png" alt="Ihar" class="logo__img" />
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

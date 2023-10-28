@@ -1,0 +1,21 @@
+@media(max-width: 900px){
+    .header{
+        
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contener_inp{
+        width: 40rem;
+    }
+
+    .main_wraper{
+     flex-wrap: nowrap;
+     flex-direction: column;   
+    }
+
+    .imagess{
+        width: 100%;
+    }
+}
+
